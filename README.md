@@ -1,9 +1,12 @@
-This code will help you decide if a piece of information is true or not. This is done with crowdsourcing using Twitter and Wikipedia data. Latent Semantic Analysis is used to compare texts.
+# That's Fake?
+
+This code will help you decide if a piece of information is true or not. 
+It's done with crowdsourcing using Twitter and Wikipedia data by performing **Latent Semantic Analysis** for text comparisons.
 
 To install the dependencies,
 
-  Run pip install -r package.txt
+Run `pip install -r package.txt` from the directory that contains this repo
 
-A config.py with the Twitter OAuth tokens is required. Once that is ready,
+A `config.py` with the Twitter OAuth tokens is required. Once that is ready,
 
-Run main.py
+Run `main.py`
